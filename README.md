@@ -30,5 +30,5 @@ This is the more in-depth info about each cluster - exact year range, part numbe
 | 2019-2020  | Hyundai | Elantra                     | 94051-F3150    | https://www.hyundaipartsdeal.com/genuine/hyundai-cluster-assy-instrument~94051-f3150.html |
 | 2013       | Nissan  | Pathfinder                  | 24810-3KA0A    | Newer variant of P/N: https://parts.nissanusa.com/parts/nissan-instrument-cluster-248109pa0d |
 | 2016       | Nissan  | Sentra                      |                | |
-| 2017-2020  | Nissan  | Pathfinder                  |                | |
+| 2017-2020  | Nissan  | Pathfinder                  | 24810-9PM0A    | https://parts.nissanusa.com/parts/nissan-instrument-cluster-248109pm0a |
 | 2014-2018  | Audi    | A8                          | 4H0920920J     | |
