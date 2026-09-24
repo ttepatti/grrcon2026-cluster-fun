@@ -18,3 +18,17 @@ Currently, there are three clusters available for hacking:
 - 2019 Hyundai Elantra Instrument Cluster
 - 2013 Nissan Pathfinder Instrument Cluster
 
+We also have a few spares in the back in case any of these clusters break, lol. Let us know if you need any of them swapped out!
+
+## Cluster Specification Info
+
+This is the more in-depth info about each cluster - exact year range, part number, link to parts site, etc.
+
+| Year Range | Make    | Model                       | Part Number    |  Link to Parts Site                                                                                                                                                                   |
+| ---------- | ------- | --------------------------- | -------------- | ------------------ |
+| 2016-2019  | Ford    | Explorer Police Interceptor | GB5T-10849-JG  | Because it's a police part I can't find a part reference anywhere. This is kinda similar...? https://parts.levittownfordparts.com/oem-parts/ford-instrument-cluster-gb5z10849ca |
+| 2019-2020  | Hyundai | Elantra                     | 94051-F3150    | https://www.hyundaipartsdeal.com/genuine/hyundai-cluster-assy-instrument~94051-f3150.html |
+| 2013       | Nissan  | Pathfinder                  | 24810-3KA0A    | Newer variant of P/N: https://parts.nissanusa.com/parts/nissan-instrument-cluster-248109pa0d |
+| 2016       | Nissan  | Sentra                      |                | |
+| 2017-2020  | Nissan  | Pathfinder                  |                | |
+| 2014-2018  | Audi    | A8                          | 4H0920920J     | |
