@@ -2,6 +2,10 @@
 
 This repository contains documentation and guidance related to hacking on instrument clusters - specifically, the instrument clusters that are available to hack on at GrrCON 2026's Car Hacking Village.
 
+The overall goal of this village is HAVE FUN! Play around with the clusters, learn how to make the gauges move, learn how to make them beep, fuzz them if you want, maybe even try to reflash their firmware.
+
+This is intended to be an open setting where you can play around with automotive devices that don't have to drive you to work in the morning. Learn how the CAN bus works, how to interact with gauge clusters using CAN, anything you'd like to do. There are no flags here, the world is your oyster!
+
 ## Introductory Resources
 
 For an introduction to Car Hacking and the CAN bus, please check out the [introductory_resources.md](introductory-resources.md) file.
