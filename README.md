@@ -20,6 +20,10 @@ Currently, there are three clusters available for hacking:
 
 We also have a few spares in the back in case any of these clusters break, lol. Let us know if you need any of them swapped out!
 
+## Contributing
+
+If you capture any interesting CAN logs you want to share, find any new CAN definitions, or want to contribute any other information to the repository, feel free to file an issue or PR!
+
 ## Cluster Specification Info
 
 This is the more in-depth info about each cluster - exact year range, part number, link to parts site, etc.
