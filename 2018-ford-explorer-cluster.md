@@ -45,14 +45,29 @@ If you would like to know more about the inner workings, I highly recommend seek
 
 ## Helpful Hints
 
-To start you on your journey, here are a couple of fun CAN messages I’ve found to play around with (note, these names are from the public ford_lincoln_base_pt.dbc file published by the opendbc project)
+To start you on your journey, here are a couple of fun CAN messages I’ve found to play around with (note, these names are from the public `ford_lincoln_base_pt.dbc` file published by the opendbc project)
 
-  - 0x3B3 - BodyInfo_3_FD1 – the vehicle’s ignition status, among other things
-  - 0x167 - VehicleOperatingModes – whether or not the engine is running
-  - 0x204 - EngVehicleSpThrottle – the engine’s current RPM (tachometer)
-  - 0x156 - EngineData_6 - coolant temperature)
-  - 0x171 - EngineData_1 - the currently selected gear, PRNDL
-  - 0x202 - EngVehicleSpThrottle2 – the vehicle’s current speed
+  - **0x3B3** - BodyInfo_3_FD1 – the vehicle’s ignition status, among other things
+  - **0x167** - VehicleOperatingModes – whether or not the engine is running
+  - **0x204** - EngVehicleSpThrottle – the engine’s current RPM (tachometer)
+  - **0x156** - EngineData_6 - coolant temperature
+  - **0x171** - EngineData_1 - the currently selected gear, PRNDL
+  - **0x202** - EngVehicleSpThrottle2 – the vehicle’s current speed
+
+Try to play around with the bytes in these!
+
+```sh
+# sent every 10ms
+cansend can0 167#72800011fff9f400
+cansend can0 204#c00000c15e000000
+cansend can0 156#9600000003000000
+# sent every 20ms
+cansend can0 202#0400000060000000
+# sent every 30ms
+cansend can0 171#0400f00000000000
+# sent every 100ms
+cansend can0 3b3#4048001210050000
+```
 
 ## Repeating Messages
 Many CAN messages aren’t sent a single time, they are sent over and over on a repeated basis. If you’re inspecting a DBC file for information, try seeing if there is a “GenMsgCycleTime” value associated with the ID that you’re investigating. You might need to send the CAN frame every 10ms, 100ms, or 500ms.
