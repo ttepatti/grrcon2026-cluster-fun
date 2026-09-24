@@ -15,7 +15,7 @@ For an introduction to Car Hacking and the CAN bus, please check out the [introd
 Currently, there are three clusters available for hacking:
 
 - [2018 Ford Explorer Police Interceptor Instrument Panel Cluster (IPC)](2018-ford-explorer-cluster.md)
-- 2019 Hyundai Elantra Instrument Cluster
+- [2019 Hyundai Elantra Instrument Cluster](2019-hyundai-elantra-cluster.md)
 - 2013 Nissan Pathfinder Instrument Cluster
 
 We also have a few spares in the back in case any of these clusters break, lol. Let us know if you need any of them swapped out!
